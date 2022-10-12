@@ -1,0 +1,381 @@
+/* mays tinh */
+@media  screen and  (min-width:768px){
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html{
+        background: url(./img/bgr.jpeg);
+    }
+    .wapper{
+    display: block;
+    background-image: linear-gradient(to right, rgb(232, 171, 171, 0.4), rgb(218, 185, 191, 0.1));
+    height: 100%;
+    }
+    .background {
+        position: absolute;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+        z-index: 2;
+    }
+    header{
+        z-index: 0;
+        color: gray;
+        display: flex;
+    }
+    .logo{
+        width: 5%;
+        
+    }
+    header> .logo img{
+        height: 5rem;
+        width: 100%;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        height: 5rem;
+    }
+    .header li{
+        padding: 0 3rem;
+        font-size: 1.4rem;
+    }
+    .contents {
+        margin-top: 5rem;
+    }
+    .title {
+        color: gray;
+    }
+    .title h2{
+        color: gray;
+    }
+    .title> h1{
+        color: white;
+    }
+    .title p >b{
+        color:rgb(42, 228, 42) ;
+    }
+    .input {
+        display: flex;
+        
+    }
+   .input_1{
+    background-color: gray;
+    height: 5rem;
+    border-radius: 10px;
+    position: relative;
+    width: 15%;
+   }
+    .input_1 > label{
+        position: absolute;
+        left: 1rem;
+        top: 0.5rem;
+        color: aqua;
+    }
+    .input_1 > .yeu{
+        position: relative;
+        top: 2rem;
+        height: 3rem;
+        width: 100%;
+        border-radius: 10px;
+        background: gray;
+        outline: none;
+        border: none;
+    }
+    .input_1 > .yeu::placeholder{
+        color: aliceblue;
+    }
+    .input_1 .n1{
+        color: white;
+        position: absolute;
+        top: 1rem;
+        font-size: 3rem;
+        left: 13rem;
+    }
+    .input_1 {
+        margin-right: 2rem;
+    }
+
+
+   .input_2{
+    background-color: gray;
+    height: 5rem;
+    border-radius: 10px;
+    position: relative;
+    width: 15%;
+   }
+    .input_2 > label{
+        position: absolute;
+        left: 1rem;
+        top: 0.5rem;
+        color: aqua;
+    }
+    .input_2 > .dam{
+        position: relative;
+        top: 2rem;
+        height: 3rem;
+        width: 100%;
+        border-radius: 10px;
+        background: none;
+        outline: none;
+        border: none;
+    }
+    .input_2 > .dam::placeholder{
+        color: aliceblue;
+    }
+    .input_2 .n2{
+        color: white;
+        position: absolute;
+        top: 1rem;
+        font-size: 3rem;
+        left: 13rem;
+    }
+    .mail{
+        margin-top: 1.5rem;
+        display: block;
+    }
+    .mail_up input{
+        width: 32%;
+        height: 3rem;
+        border-radius:10px ;
+        position: relative;
+        background-color: gray;
+    }
+    .mail_up input::placeholder{
+        color: aliceblue;
+    }
+    .mail_up i{
+        position: absolute;
+        left: 36rem;
+        top: 23rem;
+        color: white;
+    }
+    .mail_down{
+        margin-top: 1rem;
+    }
+    .mail_down input{
+        width: 32%;
+        height: 3rem;
+        border-radius:10px ;
+        position: relative;
+        background-color: gray;
+    }
+    .mail_down input::placeholder{
+        color: aliceblue;
+    }
+    .mail_down i{
+        position: absolute;
+        left: 36rem;
+        top: 27rem;
+        color: white;
+    }
+    .button {
+        position: relative;
+        margin-top: 2rem;
+    }
+    .button button{
+        margin-right: 3rem;
+        padding: 1rem 3rem;
+        border-radius: 3rem;
+    }
+    .button button:first-child{
+        color: rgb(34, 208, 34);
+        font-weight: 600;
+        background-color: gray;
+    }
+    .button button:hover{
+        background-color: green;
+        color: white;
+    }
+
+}
+@media screen and (max-width : 768px) {
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+    html{
+        background: url(./img/bgr.jpeg);
+    }
+    .wapper{
+    display: block;
+    background-image: linear-gradient(to right, rgb(232, 171, 171, 0.4), rgb(218, 185, 191, 0.1));
+    height: 100%;
+    margin: 0 3rem;
+    }
+    header{
+        z-index: 0;
+        color: gray;
+        display: flex;
+    }
+    .logo{
+        height: 50px;
+        width: 50px;
+        
+    }
+    header> .logo img{
+        height: 50px;
+        width: 100%;
+    }
+    .header {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        height: 5rem;
+    }
+    .header li{
+        padding: 0 3rem;
+        font-size: 1.4rem;
+    }
+    .contents {
+        margin-top: 5rem;
+    }
+    .title {
+        color: gray;
+    }
+    .title h2{
+        color: gray;
+    }
+    .title> h1{
+        color: white;
+    }
+    .title p >b{
+        color:rgb(42, 228, 42) ;
+    }
+    .input {
+        display: flex;
+    }
+   .input_1{
+    background-color: gray;
+    height: 4rem;
+    border-radius: 10px;
+    position: relative;
+    width: 35%;
+   }
+    .input_1 > label{
+        position: absolute;
+        left: 1rem;
+        top: 0.5rem;
+        color: aqua;
+    }
+    .input_1 > .yeu{
+        position: relative;
+        top: 2rem;
+        height: 3rem;
+        width: 100%;
+        border-radius: 10px;
+        background: gray;
+        outline: none;
+        border: none;
+    }
+    .input_1 > .yeu::placeholder{
+        color: aliceblue;
+    }
+    .input_1 .n1{
+        color: white;
+        position: absolute;
+        top: 1rem;
+        font-size: 3rem;
+        left: 13rem;
+    }
+    .input_1 {
+        margin-right: 2rem;
+    }
+
+
+   .input_2{
+    background-color: gray;
+    height: 5rem;
+    border-radius: 10px;
+    position: relative;
+    width: 15%;
+   }
+    .input_2 > label{
+        position: absolute;
+        left: 1rem;
+        top: 0.5rem;
+        color: aqua;
+    }
+    .input_2 > .dam{
+        position: relative;
+        top: 2rem;
+        height: 3rem;
+        width: 100%;
+        border-radius: 10px;
+        background: none;
+        outline: none;
+        border: none;
+    }
+    .input_2 > .dam::placeholder{
+        color: aliceblue;
+    }
+    .input_2 .n2{
+        color: white;
+        position: absolute;
+        top: 1rem;
+        font-size: 3rem;
+        left: 13rem;
+    }
+    .mail{
+        margin-top: 1.5rem;
+        display: block;
+    }
+    .mail_up input{
+        width: 32%;
+        height: 3rem;
+        border-radius:10px ;
+        position: relative;
+        background-color: gray;
+    }
+    .mail_up input::placeholder{
+        color: aliceblue;
+    }
+    .mail_up i{
+        position: absolute;
+        left: 36rem;
+        top: 23rem;
+        color: white;
+    }
+    .mail_down{
+        margin-top: 1rem;
+    }
+    .mail_down input{
+        width: 32%;
+        height: 3rem;
+        border-radius:10px ;
+        position: relative;
+        background-color: gray;
+    }
+    .mail_down input::placeholder{
+        color: aliceblue;
+    }
+    .mail_down i{
+        position: absolute;
+        left: 36rem;
+        top: 27rem;
+        color: white;
+    }
+    .button {
+        position: relative;
+        margin-top: 2rem;
+    }
+    .button button{
+        margin-right: 3rem;
+        padding: 1rem 3rem;
+        border-radius: 3rem;
+    }
+    .button button:first-child{
+        color: rgb(34, 208, 34);
+        font-weight: 600;
+        background-color: gray;
+    }
+    .button button:hover{
+        background-color: green;
+        color: white;
+    }
+}
